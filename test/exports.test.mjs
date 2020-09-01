@@ -12,7 +12,7 @@ import itExports from './exports.js';
 
 // Tests
 
-describe('ESM export', () => { // eslint-disable-line jest/lowercase-name
+describe('ESM export', () => {
 	it('default export is an object', () => {
 		expect(Overlook).toBeObject();
 	});
