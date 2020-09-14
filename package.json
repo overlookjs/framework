@@ -1,6 +1,6 @@
 {
   "name": "@overlook/framework",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Overlook framework",
   "main": "index.js",
   "module": "es/index.js",

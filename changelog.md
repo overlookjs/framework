@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.0.3
+
+Bug fixes:
+
+* Export symbols from `@overlook/plugin-load`
+
+Dependencies:
+
+* Update plugin dependencies
+
+Dev:
+
+* Update dev dependencies
+
 ## 0.0.2
 
 Minor:
