@@ -32,6 +32,14 @@ module.exports = function itExports(Overlook) {
 	describe('symbols', () => {
 		it.each([
 			'INIT_ROUTE',
+			'FILES',
+			'PARENT_PATH',
+			'GET_PARENT_PATH',
+			'DIR_INDEX',
+			'ROUTE_EXTS',
+			'GET_DIR_INDEX',
+			'GET_ROUTE_EXTS',
+			'IDENTIFY_ROUTE_FILE',
 			'HANDLE_ROUTE',
 			'PATH_PART',
 			'GET_PATH_PART',
