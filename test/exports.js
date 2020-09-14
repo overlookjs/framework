@@ -22,7 +22,8 @@ module.exports = function itExports(Overlook) {
 	describe('classes', () => {
 		it.each([
 			'RootRoute',
-			'Route'
+			'Route',
+			'File'
 		])('%s', (key) => {
 			expect(Overlook[key]).toBeFunction();
 		});
@@ -47,8 +48,8 @@ module.exports = function itExports(Overlook) {
 			'START',
 			'STOP',
 			'PORT',
-			'STATIC_FILE_PATH',
-			'GET_STATIC_FILE_PATH',
+			'STATIC_FILE',
+			'GET_STATIC_FILE',
 			'STATIC_FILE_HEADERS',
 			'GET_STATIC_FILE_HEADERS'
 		])('%s', (key) => {

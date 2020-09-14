@@ -12,6 +12,7 @@ export const {
 	load,
 	RootRoute,
 	Route,
+	File,
 	INIT_ROUTE,
 	HANDLE_ROUTE,
 	PATH_PART,
@@ -29,8 +30,8 @@ export const {
 	START,
 	STOP,
 	PORT,
-	STATIC_FILE_PATH,
-	GET_STATIC_FILE_PATH,
+	STATIC_FILE,
+	GET_STATIC_FILE,
 	STATIC_FILE_HEADERS,
 	GET_STATIC_FILE_HEADERS
 } = Overlook;
