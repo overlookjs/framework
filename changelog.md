@@ -1,5 +1,11 @@
 # Changelog
 
+## Next
+
+Dependencies:
+
+* Update `@overlook/plugin-static` dependency
+
 ## 0.0.3
 
 Bug fixes:
