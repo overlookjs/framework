@@ -59,7 +59,13 @@ module.exports = function itExports(Overlook) {
 			'STATIC_FILE',
 			'GET_STATIC_FILE',
 			'STATIC_FILE_HEADERS',
-			'GET_STATIC_FILE_HEADERS'
+			'GET_STATIC_FILE_HEADERS',
+			'RESPOND_WITH_FILE',
+			'GET_FILE_PATH',
+			'READ_FILE',
+			'WRITE_FILE',
+			'CREATE_VIRTUAL_PATH',
+			'FS_FILES'
 		])('%s', (key) => {
 			expect(typeof Overlook[key]).toBe('symbol');
 		});
