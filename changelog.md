@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.0.5
+
+Features:
+
+* Add `@overlook/plugin-build`
+
+Dependencies:
+
+* Update `@overlook/route` + plugin dependencies
+
+Docs:
+
+* Correct changelog [fix]
+
 ## 0.0.4
 
 Dependencies:
