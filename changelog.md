@@ -1,6 +1,6 @@
 # Changelog
 
-## Next
+## 0.0.4
 
 Dependencies:
 
