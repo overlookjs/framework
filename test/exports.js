@@ -13,7 +13,8 @@
 module.exports = function itExports(Overlook) {
 	describe('methods', () => {
 		it.each([
-			'load'
+			'load',
+			'deleteRouteProperties'
 		])('%s', (key) => {
 			expect(Overlook[key]).toBeFunction();
 		});
@@ -32,6 +33,11 @@ module.exports = function itExports(Overlook) {
 	describe('symbols', () => {
 		it.each([
 			'INIT_ROUTE',
+			'BUILD',
+			'PRE_BUILD',
+			'BUILD_FILE',
+			'BUILD_FILES',
+			'FS_ROOT_PATH',
 			'FILES',
 			'PARENT_PATH',
 			'GET_PARENT_PATH',
