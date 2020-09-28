@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@overlook/load-routes": "^0.3.0",
-    "@overlook/plugin-build": "^0.1.2",
+    "@overlook/plugin-build": "^0.1.3",
     "@overlook/plugin-load": "^0.4.3",
     "@overlook/plugin-match": "^0.8.3",
     "@overlook/plugin-ordered": "^0.5.3",
