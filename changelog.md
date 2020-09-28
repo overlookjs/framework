@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.9
+
+Breaking changes:
+
+* Rename static dir to `public`
+
+Bug fixes:
+
+* Treat all files (even `index.js`) in public dir as static
+
 ## 0.0.8
 
 Dependencies:
