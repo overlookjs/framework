@@ -33,9 +33,8 @@
   "dependencies": {
     "@overlook/load-routes": "^0.3.0",
     "@overlook/plugin-build": "^0.1.3",
-    "@overlook/plugin-load": "^0.4.3",
+    "@overlook/plugin-load": "^0.4.4",
     "@overlook/plugin-match": "^0.8.3",
-    "@overlook/plugin-ordered": "^0.5.3",
     "@overlook/plugin-path": "^0.8.3",
     "@overlook/plugin-request": "^0.1.3",
     "@overlook/plugin-serve-http": "^0.3.4",
@@ -75,7 +74,7 @@
     "ci": "if [ $COVERAGE ]; then npm run coveralls; else npm test; fi"
   },
   "engines": {
-    "node": ">=10.17.0"
+    "node": ">=10"
   },
   "readmeFilename": "README.md",
   "license": "MIT"
