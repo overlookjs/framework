@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.0.7
+
+Features:
+
+* Add static dir
+
+Improvements:
+
+* Re-export `register` from `@overlook/plugin-build`
+
 ## 0.0.6
 
 Dependencies:
