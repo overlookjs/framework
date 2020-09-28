@@ -9,9 +9,13 @@
       "import": "./es/index.js",
       "require": "./index.js"
     },
-    "./es": "./es/index.js"
+    "./es": "./es/index.js",
+    "./register": {
+      "require": "./register.js"
+    }
   },
   "files": [
+    "register.js",
     "lib/**/*.js",
     "es/**/*.js"
   ],
