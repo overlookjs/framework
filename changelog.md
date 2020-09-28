@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.8
+
+Dependencies:
+
+* Update `@overlook/plugin-build` dependency
+
 ## 0.0.7
 
 Features:
